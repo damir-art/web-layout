@@ -3,6 +3,7 @@
 
 Порядок работы, программы и знания необходимые для HTML-верстки сайтов
 
+* [Типы верстки](https://damir-art.github.io/layout/type-layout/) &ndash; продумываем как будем верстать и что использовать
 * [HTML-редактор](https://damir-art.github.io/visual-studio-code/) &ndash; Visual Studio Code
 * [Photoshop](https://damir-art.github.io/layout/photoshop/) &ndash; Photoshop для HTML-верстальщика
 * [Проект](https://damir-art.github.io/layout/project/) &ndash; структура проекта
