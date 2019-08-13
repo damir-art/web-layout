@@ -7,12 +7,14 @@
        logo.png
        favicon.(ico|png)
        header-bg.png
-    SASS
-        style.scss
     EXP
         BOOTSTRAP
         slick.js
     JS
         custom.js
+    FONTS
+    SASS
+        style.scss
+    
     index.html
     gulp.js
