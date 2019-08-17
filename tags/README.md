@@ -14,6 +14,7 @@
 
 ## Атрибуты
 * Значения атрибутов id и class, регистрозависимые.
-* input
 
-    <input>
+Привет
+
+    <input type="text" name="text" placeholder="Введите имя" />
