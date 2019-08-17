@@ -9,7 +9,7 @@
 * [Проект](https://damir-art.github.io/layout/project/) &ndash; структура проекта
 * [HTML-шаблон](https://gist.github.com/damir-art/e9b4ca2fbc76227ace4820d01210df4d) &ndash; HTML-шаблон (index.html)
 * [CSS-шаблон](https://gist.github.com/damir-art/8cadb788f1a52d82a80b8bace68b588b) &ndash; CSS-шаблон (style.css)
-* [Теги HTML](https://damir-art.github.io/layout/tags/) &ndash; поговорим немного о тегах
+* [Теги HTML](https://damir-art.github.io/layout/tags/) &ndash; поговорим немного о тегах, атрибутах и прочем
 
 ## Разные ссылки
 * [Имена классов в CSS](https://github.com/yoksel/common-words) &ndash; частоиспользуемые имена классов
