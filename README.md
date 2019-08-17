@@ -12,5 +12,6 @@
 * [Теги HTML](https://damir-art.github.io/layout/tags/) &ndash; поговорим немного о тегах
 
 ## Разные ссылки
-* [Имена классов в CSS](https://github.com/yoksel/common-words) - частоиспользуемые имена классов
-* [Стиль кода](http://codeguide.academy/) - HTML, CSS, JS
+* [Имена классов в CSS](https://github.com/yoksel/common-words) &ndash; частоиспользуемые имена классов
+* [Стиль кода](http://codeguide.academy/) &ndash; HTML, CSS, JS
+* [Стиль кода от Гугл](https://habr.com/ru/post/143452/) &ndash; HTML, CSS
