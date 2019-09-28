@@ -12,7 +12,10 @@
 * [HTML](https://damir-art.github.io/layout/html/) &ndash; поговорим немного о тегах, атрибутах и прочем
 * [CSS](https://damir-art.github.io/layout/css/) &ndash; поговорим немного о CSS
 
-## Разные ссылки
+## Дополнительные статьи
 * [Имена классов в CSS](https://github.com/yoksel/common-words) &ndash; частоиспользуемые имена классов
 * [Стиль кода](http://codeguide.academy/) &ndash; HTML, CSS, JS
 * [Стиль кода от Гугл](https://habr.com/ru/post/143452/) &ndash; HTML, CSS
+
+## Сервисы для HTML-верстальщика
+* https://codepen.io/ &ndash; онлайн редактор кода
