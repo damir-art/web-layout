@@ -19,3 +19,4 @@
 
 ## Сервисы для HTML-верстальщика
 * https://codepen.io/ &ndash; онлайн редактор кода
+* PerfectPixel by WellDoneCode - плагин для браузера
