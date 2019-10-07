@@ -20,3 +20,5 @@
 ## Сервисы для HTML-верстальщика
 * https://codepen.io/ &ndash; онлайн редактор кода
 * PerfectPixel by WellDoneCode - плагин для браузера
+* https://flexboxfroggy.com/#ru - учим flexbox
+* https://cssgridgarden.com/#ru - учим grid
