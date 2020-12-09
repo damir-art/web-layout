@@ -15,6 +15,6 @@
     FONTS
     SASS
         style.scss
-    
+
     index.html
     gulp.js

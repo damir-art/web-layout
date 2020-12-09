@@ -1,7 +1,7 @@
 # Photoshop для HTML-верстальщика
 ## Сохранение изображений из макета
 
-[Репозиторий](https://github.com/damir-art/layout/tree/master/photoshop)
+[Репозиторий](https://github.com/damir-art/web-layout/tree/master/photoshop)
 
 Первый способ:
 * V > автовыбор > выбираем слой на макете
