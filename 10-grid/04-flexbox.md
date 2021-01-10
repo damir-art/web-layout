@@ -5,11 +5,11 @@
         display: flex;
         flex-direction: row; /* по-умолчанию */
         justify-content: space-between;
-        align-items: baseline; /* выровнить по базовой линии текста */
+        align-items: baseline/stretch; /* выровнить по базовой линии текста */
     }
 
     .flex__item {
-        flex-basis: auto; /* по-умолчанию */
+        flex-basis: auto/200px; /* по-умолчанию */
         flex-grow: 1; /* поглотить свободное пространство */
         margin-top: auto; /* опустится вниз */
         align-self: baseline;
@@ -23,6 +23,11 @@
 ## Алгоритм задания свойств флексам
 - flex-basis или width
 - justify-content или margin
+- flex-grow: 1
+
+## Центрирование
+    justify-content: center
+    align-content: center
 
 ## Разное
 - не используйте `flex-grow` для задания точных ширин, например в пикселах
