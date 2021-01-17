@@ -14,4 +14,3 @@
         background-color: var(--basic-color);
         color: var(--accent-color);
     }
-

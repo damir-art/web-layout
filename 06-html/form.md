@@ -1,7 +1,6 @@
 # Формы
-
 ## Кнопка
-Всегда используйте только этот тег для кнопки:
+Всегда используйте только этот `<button>` тег для кнопки:
 
     <button class="button" type="button">
         Кнопка
@@ -11,7 +10,7 @@
 - Не вставляйте кнопку в форму если она не является частью формы
 
 ## Lable и input
-Lable - описание тега input.
+Lable - описание тега input. Label - for. Input - id.
     
     <form action="https://echo.htmlacademy.ru" method="post">
         <label for="appointment-date">Дата</label>

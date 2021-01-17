@@ -10,7 +10,7 @@
 
 ## Какие размеры
 * пиксельный (pixel perfect)
-* rem, em
+* rem, em (не использовать)
 
 ## Какие методологии и технологии
 Figma, БЭМ, gulp, Bootsrap, Photoshop, VS Code...
@@ -24,10 +24,10 @@ Figma, БЭМ, gulp, Bootsrap, Photoshop, VS Code...
 ### Структурные
 Задают основную структуру страницы:
 
-    article, section, nav
+    header, main, footer, article, section, nav
 
 ### Заголовки
-Обычно находятся внутри article и section:
+Обычно находятся внутри article, section:
 
     h1-h6
 
@@ -37,8 +37,9 @@ Figma, БЭМ, gulp, Bootsrap, Photoshop, VS Code...
     ul, ol, p, table, div
 
 ### Фразовые
-Ссылка ведет на другую страницу, кнопка никуда не ведет.
 
     img, a, button
     strong, em, b, i
     br, span
+
+Отличие ссылки от кнопки: ссылка ведет на другую страницу, кнопка никуда не ведет.

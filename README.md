@@ -1,6 +1,4 @@
 # Руководство для HTML-верстальшика
-[Репозиторий](https://github.com/damir-art/web-layout)
-
 Порядок работы, программы и знания необходимые для HTML-верстки сайтов
 
 ## Процесс работы верстальшика
@@ -8,23 +6,27 @@
 - подготовка графики
 - создание сетки
 - оформление декоративных элементов
-- оформление текстового содержания
-- оживление интерактивных элементов
-- оптимизация
+- оформление текстового содержания, работа с переполнениями
+- оживление интерактивных элементов (JavaScript)
+- оптимизация кода, изображений
 
-* [Типы верстки](https://damir-art.github.io/web-layout/type-layout/) &ndash; продумываем как будем верстать и что использовать
-* [HTML-редактор](https://damir-art.github.io/visual-studio-code/) &ndash; Visual Studio Code
-* [Photoshop](https://damir-art.github.io/web-layout/photoshop/) &ndash; Photoshop для HTML-верстальщика
-* Figma
-* [Проект](https://damir-art.github.io/web-layout/project/) &ndash; структура проекта
-* [HTML-шаблон](https://gist.github.com/damir-art/e9b4ca2fbc76227ace4820d01210df4d) &ndash; HTML-шаблон (index.html)
-* [CSS-шаблон](https://gist.github.com/damir-art/8cadb788f1a52d82a80b8bace68b588b) &ndash; CSS-шаблон (style.css)
-* [HTML](https://damir-art.github.io/web-layout/html/) &ndash; поговорим немного о тегах, атрибутах и прочем
-* [CSS](https://damir-art.github.io/web-layout/css/) &ndash; поговорим немного о CSS
+## Оглавление учебника
+- Типы верстки &ndash; продумываем как будем верстать и что использовать
+- [HTML-редактор](https://damir-art.github.io/visual-studio-code/) &ndash; Visual Studio Code
+- [Графический редактор](https://damir-art.github.io/web-layout/graphics-editor/) &ndash; графический редактор для HTML-верстальщика
+- [Проект](https://damir-art.github.io/web-layout/project/) &ndash; структура проекта
+- [HTML-шаблон](https://gist.github.com/damir-art/e9b4ca2fbc76227ace4820d01210df4d) &ndash; HTML-шаблон (index.html)
+- [CSS-шаблон](https://gist.github.com/damir-art/8cadb788f1a52d82a80b8bace68b588b) &ndash; CSS-шаблон (style.css)
+- [HTML](https://damir-art.github.io/web-layout/html/) &ndash; примеры HTML-компонентов сайта
+- [CSS](https://damir-art.github.io/web-layout/css/) &ndash; примеры CSS свойств для HTML-компонентов сайта
+- Сетки (флоат, флексбокс, grid)
+- Верстка декоративных элементов
+- Верстка контентной части, устранение переполнений
+- Скрипты JavaScript-структур сайта
 
 ## Дополнительные статьи
 * [Имена классов в CSS](https://github.com/yoksel/common-words) &ndash; частоиспользуемые имена классов
-* [Стиль кода](http://codeguide.academy/) &ndash; HTML, CSS, JS
+* [Стиль кода](http://codeguide.academy/) &ndash; кодгайды от академии HTML, CSS, JS
 * [Стиль кода от Гугл](https://habr.com/ru/post/143452/) &ndash; HTML, CSS
 
 ## Сервисы для HTML-верстальщика
@@ -47,28 +49,10 @@
 - проверяй в валидаторе: https://validator.w3.org/
 - сервис проверки можно ли вкладывать тег в другой тег `Can I Include`
 
-## Графика
-### Форматы графики
-Растровые (пиксельная):
-- PNG
-- JPEG
-- GIF
-
-Векторные:
-- SVG
-- CSS - простые фигуры
-
-### Оптимизация изображений
-Если нужно экспортировать несколько изображений как одно, то сгрупируйте их.
-
-Экспортированные из Figma изображения можно оптимизировать с помощью: Squoosh и SVGOMG
-
-Perfect Pixel - плагин для подгонки верстки к макету.
-
 ## Разное
-- иконки вставляюся через псевдо элемент, div или спан, как фон, а не img
+- иконки вставляюся через псевдо элемент у div или спан или как фон, а не img
 - декоративные элементы (дизайн) размещать только фоном
 - на странице может быть только один H1
-- всегда используйте ALT в IMG
+- всегда используйте ALT у IMG
 - карточку (список товаров) выравнивать через `margin: auto;`
-- iframe и img задавайте ширину и высоту в теге
+- задавайте ширину и высоту iframe и img тегам

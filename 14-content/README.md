@@ -14,4 +14,3 @@
 - https://autoprefixer.github.io/ru/ автопрефиксер (last 2 version, not dead, not ie <= 11)
 - http://css.github.io/csso/csso.html
 - https://jscompress.com/
-    
