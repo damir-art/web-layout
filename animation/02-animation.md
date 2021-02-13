@@ -1,4 +1,21 @@
 # Animation
+
+Анимируем меню:
+
+    .menu {
+        animation-name: keyName, [keyName];
+        animation-duration: 2s, [500ms];
+        animation-timing-function: ease;
+    }
+    @keyframes keyName, [keyName] {
+        0% {
+
+        }
+        100% {
+
+        }
+    }
+
 Animation и @keyframes (ключевые кадры), создаёт более сложные анимации чем transitions.
 
 Воспроизводит и повторяет эффекты в течении определённого времени и останавливает по событию.
@@ -40,5 +57,3 @@ Animation и @keyframes (ключевые кадры), создаёт более
             left: 500px;
         }
     }
-
-        

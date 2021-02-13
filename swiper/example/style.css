@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #212121;
+}
+h1 {
+    color: #eee;
+}
+img {
+    vertical-align: top;
+}
+ul {
+    list-style: none;
+}
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+/* CSS-слайдера */
+.image-slider {
+    padding: 30px 0 70px 0;
+}
+
+/* .image-slider__wrapper {
+
+}
+.image-slider__slide {
+
+} */
+
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__image img {
+    max-width: 100%;
+    /* object-fit: contain; */
+}
+
+/* Стрелки слайдера, иконочный шрифт */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+    color: #fff;
+    font-size: 80px;
+}
+
+/* Пагинация слайдера */
+.image-slider .swiper-pagination {
+    bottom: 0;
+}
+
+/* Буллеты слайдера */
+.image-slider .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* Фракция слайдера */
+.image-slider .swiper-pagination-fraction {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Прогрессбар слайдера */
+.image-slider .swiper-pagination-progressbar-fill {
+    background-color: #fff;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Swiper</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Изучаем Swiper</h1>
+
+        <!-- Главный контейнер слайдера -->
+        <div class="image-slider swiper-container">
+            <!-- Дополнительная обязательная оболочка -->
+            <div class="image-slider__wrapper swiper-wrapper">
+                <!-- Слайды -->
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="img/ferrari-1.jpg" alt="Картинка">
+                    </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="img/ferrari-2.jpg" alt="Картинка">
+                    </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="img/ferrari-3.jpg" alt="Картинка">
+                    </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="img/ferrari-4.jpg" alt="Картинка">
+                    </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="img/ferrari-5.jpg" alt="Картинка">
+                    </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="img/ferrari-6.jpg" alt="Картинка">
+                    </div>
+                </div>
+                <!-- и так далее... -->
+            </div>
+
+            <!-- Добавляем, если нам нужны стрелки управления -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- Добавляем, если нам нужна пагинация -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Добавляем если нам нужна полоса прокрутки (scrollbar) -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div> <!-- swiper-container -->
+
+    </div> <!-- wrapper -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

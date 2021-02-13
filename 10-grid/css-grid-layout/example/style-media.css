@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+
+.container {
+    max-width: 1110px;
+    background-color: #eee;
+    margin: 0 auto;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid {
+    display: grid;
+    height: 100%;
+    /* grid-template-columns:
+        [l-sidebar-s] repeat(3, 1fr) [l-sidebar-e] repeat(6, 1fr) [r-sidebar-s] repeat(3, 1fr) [r-sidebar-e];
+    grid-template-rows: [header-s] 80px [header-e] 1fr [footer-s] 100px [footer-e]; */
+
+    /* grid-template-areas:
+        "header header header header header header header header header header header header"
+        "left left left content content content content content content right right right"
+        "footer footer footer footer footer footer footer footer footer footer footer footer"
+    ; */
+    grid-template-columns: 200px 1fr 300px;
+    grid-template-rows: 80px 1fr 100px;
+    grid-template-areas:
+        "header header header"
+        "left content right"
+        "footer footer footer"
+    ;
+    grid-gap: 20px;
+}
+
+.grid__item {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+/* .item-1 {
+    grid-column: l-sidebar-s / r-sidebar-e;
+    grid-row: header-s / header-e;
+}
+
+.item-2 {
+    grid-column: l-sidebar-s / l-sidebar-e;
+    grid-row: header-e / footer-s;
+}
+
+.item-3 {
+    grid-column: l-sidebar-e / r-sidebar-s;
+    grid-row: header-e / footer-s;
+}
+
+.item-4 {
+    grid-column: r-sidebar-s / r-sidebar-e;
+    grid-row: header-e / footer-s;
+}
+
+.item-5 {
+    grid-column: l-sidebar-s / r-sidebar-e;
+    grid-row: footer-s / footer-e;
+} */
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: left;
+}
+
+.item-3 {
+    grid-area: content;
+}
+
+.item-4 {
+    grid-area: right;
+}
+
+.item-5 {
+    grid-area: footer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        background-color: deeppink;
+    }
+    .grid {
+        grid-template-areas:
+            "header header header"
+            "left content content"
+            "right right right"
+            "footer footer footer";
+        grid-template-rows: 80px 1fr 80px 100px;
+    }
+}
