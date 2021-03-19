@@ -1,19 +1,21 @@
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #212121;
+    /* background-color: #212121; */
+    background-color: #e8e8e8;
 }
 h1 {
     color: #eee;
 }
 img {
     vertical-align: top;
+    /* max-width: 100%; */
 }
 ul {
     list-style: none;
 }
 .wrapper {
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
     margin-bottom: 70px;
 }
@@ -65,9 +67,43 @@ ul {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 
 /* Прогрессбар слайдера */
 .image-slider .swiper-pagination-progressbar-fill {
     background-color: #fff;
 }
+
+/* Скролл */
+.image-slider .swiper-scrollbar-drag {
+    cursor: pointer;
+    background-color: red;
+}
+
+/* Слайдер по ширине изображений */
+/* .image-slider .swiper-slide {
+    width: auto;
+} */
+
+/* Несколько рядов */
+/* .image-slider {
+    height: 700px;
+}
+.image-slider .swiper-slide {
+    height: calc((100% - 30px) / 2);
+    overflow: hidden;
+} */
+
+/* Вертикальный слайдер */
+/* .image-slider {
+    padding: 0;
+    height: 700px;
+} */
+
+/* Эффект куб */
+/* .image-slider {
+    width: 500px;
+} */
+
+/* Lazy Loading. Отложенная подгрузка картинок. */
