@@ -16,7 +16,7 @@
                 </nav> <!-- menu -->
             </header> <!-- header -->
 
-            <!-- Grid-контейнер + Grid-элемент -->
+            <!-- Тег Main одновременно Grid-контейнер и Grid-элемент -->
             <main class="main">
                 <aside class="sidebar"></aside>
                 <section class="content"></section>

@@ -22,7 +22,7 @@
 
 ## Переменные
 
-    $name:80px
+    $name: 80px
 
     .menu
         font-size: $name

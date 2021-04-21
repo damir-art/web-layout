@@ -1,6 +1,7 @@
 # Шрифты
 Основной формат шрифтов `woff2`
 
+- https://habr.com/ru/company/vdsina/blog/533208/ - о шрифтах
 - https://google-webfonts-helper.herokuapp.com/fonts - скачать шрифты, CSS-код вставки шрифта локально
 - удалить все скачанные шрифты, кроме woff2, также удаляете и строки
 - гугл фонтс
